@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/shared.css">
+    <link rel="stylesheet" href="../styles/investors.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@400;500;600;700&family=Lato:wght@400;700&family=Poppins:wght@500;700&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <title>For Investors</title>
+</head>
+<body>
+    <nav class="flex navbar">
+        <a href="../index.html"><img src="../images/main-logo.svg" alt=""></a>
+        <div class="flex-1 flex nav-items gap-2">
+            <a class="nav-links" href="#for-projects">For Projects</a>
+            <a class="nav-links" href="#for-investors">For Investors</a>
+            <button class="nav-links" type="button">Join Now</button>
+        </div>
+    </nav>
+
+    <div class="investors-bg">
+        <section id="for-investors" class="container">
+            <h5 class="sup-title">- Investors</h5>
+            <h3 class="investors-title">Access <span class="high-potential">high-potential</span> DeFi <br> startups before everyone else</h3>
+    
+            <div class="flex gap-1">
+                <div class="flex-1 flex investors-cards"><i class="fa-solid fa-circle-check" style="color: #00d386;"></i>
+                    <div>
+                        <h5>Low entry prices on DeFi tokens</h5>                
+                    </div>
+                </div>
+                <div class="flex-1 flex investors-cards"><i class="fa-solid fa-circle-check" style="color: #00d386;"></i>
+                    <div>
+                        <h5>Fully decentralized </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-1">
+                <div class="flex-1 flex investors-cards"><i class="fa-solid fa-circle-check" style="color: #00d386;"></i>
+                    <div>
+                        <h5>Only vetted projects that passed our due diligence</h5>
+                    </div>
+                </div>
+                <div class="flex-1 flex investors-cards"><i class="fa-solid fa-circle-check" style="color: #00d386;"></i>
+                    <div>
+                        <h5>New projects every month</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-1">
+                <div class="flex-1 flex investors-cards"><i class="fa-solid fa-circle-check" style="color: #00d386;"></i>
+                        <h5>High chance of success thanks to our incubation program</h5>
+                </div>
+                <div class="flex-1 flex investors-cards"><i class="fa-solid fa-circle-check" style="color: #00d386;"></i>
+                        <h5>Yield farming rewards in PIE (<span class="pie-percentage">up to 100% a year</span>)</h5>
+                </div>
+            </div>
+                <a class="investors-link" target="_blank" href="./pages/for-investors.html">Become an Investor</a>
+        </section>
+    </div>
+
+    <footer class="flex">
+        <div>
+            <h2 class="footer-title"><span class="join">Join </span><br>Vision Capital <br> and get funded</h2>
+            <p>We'll get back to you within 24 hours</p>
+            <form action="/new-project">
+                <div class="footer-column1 flex">
+                    <div class="raw">
+                        <label class="label" for="project-name">How is your project called?</label>
+                        <input class="footer-inp" id="project-name" type="text" size="35">
+                    </div>
+                    <div class="raw">
+                        <label class="label" for="email">Your Email</label>
+                        <input class="footer-inp" id="email" type="email" size="35">
+                    </div>
+                </div>
+                <div class="footer-column2 flex">
+                    <div class="raw">
+                        <label class="label" for="project-overview">Please tell us a few words about the project</label>
+                        <input class="footer-inp" id="project-overview" type="text" size="35">
+                    </div>
+                    <div class="raw">
+                        <label class="label" for="tg-name">Telegram Name</label>
+                        <input class="footer-inp" id="tg-name" type="text" size="35">
+                    </div>
+                </div>
+            </form>
+            <a class="send-button" href="">Send</a>
+        </div>
+
+        <div class="flex gap-1 icons">
+                <i class="fa-brands fa-facebook" style="color: #d4cdef;"></i>
+                <i class="fa-brands fa-twitter" style="color: #d4cdef;"></i>
+                <i class="fa-brands fa-telegram" style="color: #d4cdef;"></i>
+                <i class="fa-brands fa-github" style="color: #d4cdef;"></i>
+        </div>
+    </footer>
+</body>
+</html>
